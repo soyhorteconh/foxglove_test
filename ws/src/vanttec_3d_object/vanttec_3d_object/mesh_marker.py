@@ -21,7 +21,7 @@ class Mesh_Marker(Node):
         self.marker.action = 0
 
         # Note: Must set mesh_resource to a valid URL for a model to appear
-        self.marker.mesh_resource = "https://github.com/soyhorteconh/foxglove_test/raw/main/Spectacular%20Krunk-Turing.glb"
+        self.marker.mesh_resource = "https://raw.githubusercontent.com/soyhorteconh/foxglove_test/main/ascii_cprazon.stl"
         self.marker.mesh_use_embedded_materials = True
 
         # Scale
